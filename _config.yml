@@ -42,18 +42,18 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                subin
+  email:               lunadein2022@gmail.com
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             lunadein2022
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             I_am
     url:               /example/
-  - title:             Documentation
+  - title:             Study
     url:               /docs/
-  - title:             About
+  - title:             Daily
     url:               /about/
 
 # Add links to the footer.
@@ -403,21 +403,24 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/background.png
+      
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/background.png
+      
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/background.png
+    
       links:
         - title: Project Link
           url: https://example.com
