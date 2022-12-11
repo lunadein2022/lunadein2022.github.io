@@ -55,7 +55,7 @@ menu:
   - title: Project
     url: /about/
   - title: Daily
-    url: /4_Daily/
+    url: /4_Daily4_Daily/daily.html/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -76,6 +76,9 @@ permalink: /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate: 10
 paginate_path: /:num/
+
+paginate: 10
+paginate_path: /1_Iam/:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
