@@ -31,7 +31,7 @@ description: >
 tagline: ISTP인간과 Study with Me
 
 # A list of keywords for your blog
-keywords: []
+keywords: [Software, frontend, ISTP, daily]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -55,7 +55,7 @@ menu:
   - title: Project
     url: /about/
   - title: Daily
-    url: /4_Daily4_Daily/daily.html/
+    url: _posts/4_Daily/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -76,9 +76,6 @@ permalink: /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate: 10
 paginate_path: /:num/
-
-paginate: 10
-paginate_path: /1_Iam/:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
