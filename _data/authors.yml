@@ -16,7 +16,7 @@ author1:
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x: assets/img/profile.png
-      2x: https://via.placeholder.com/256x256
+      2x: assets/img/profile.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
