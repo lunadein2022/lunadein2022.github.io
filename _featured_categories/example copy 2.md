@@ -1,0 +1,22 @@
+---
+# Featured tags need to have either the `list` or `grid` layout (PRO only).
+layout: portfolio
+
+# The title of the tag's page.
+title: I_am
+
+# The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
+slug: i_am
+
+# (Optional) Write a short (~150 characters) description of this featured tag.
+description: >
+  Who_am_I_?
+
+# (Optional) You can disable grouping posts by date.
+# no_groups: true
+order: 1
+
+# Exclude this example category from the sitemap.
+# DON'T USE THIS SETTING IN YOUR CATEGORIES!
+sitemap: false
+---
