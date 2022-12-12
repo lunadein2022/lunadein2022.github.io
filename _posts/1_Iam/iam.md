@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Today"
+date: 2022-12-11 16:49:14 +0900
+menu: true
+test: sidebar
+categories: daily
+---
+
 layout: page
 title: I am
 description: Who I am?
