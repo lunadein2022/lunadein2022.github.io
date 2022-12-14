@@ -2,7 +2,7 @@
 layout: tag-list
 type: tag
 title: what?
-slug: algorithm
+slug: what
 category: daily
 sidebar: true
 order: 2
