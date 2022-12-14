@@ -5,7 +5,7 @@ title: what?
 slug: what
 category: daily
 sidebar: true
-order: 1
+order: 2
 description: >
   Algorithm study / Problem solutions
 ---
