@@ -2,6 +2,6 @@
 
 layout: tag-list
 type: tag
-title: Bw Tree
-slug: bwtree
+title: Blog
+slug: blog
 category: devlog
