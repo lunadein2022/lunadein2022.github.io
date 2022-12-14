@@ -1,30 +1,47 @@
 ---
-layout: base
+<!-- layout: base -->
+layout: page
 ---
 
-{% if page.title.size > 0 %}
+<!-- {% if page.title.size > 0 %}
   <header>
     <h1 class="page-title">{{ page.title }}</h1>
     {% include components/message.html text=page.description hide=page.hide_description %}
   </header>
   <hr class="sr-only"/>
-{% endif %}
+{% endif %} -->
+{{ content }}
 
 {% assign documents = site.documents %}
 {% assign featured_categories = documents | where: "type", "category" | sort %}
-{% assign featured_tags = documents | where: "type", "tag" | sort %}
-
-{% assign categories = site.categories | sort %}
+@@ -18,26 +12,27 @@ <h1 class="page-title">{{ page.title }}</h1>
 {% assign tags = site.tags | sort %}
 
 {% for category in featured_categories %}
-    <h1 id="{{ category.slug }}" class="hr">
+    <!-- <h1 id="{{ category.slug }}" class="hr">
         <a href="{{ category.url | relative_url }}">{{ category.title }}</a>
         {% for site_category in categories %}
             {% if site_category[0] == category.slug %}
-                <span class="faded fine">{{ site_category | last | size }}</span>
+                <span class="faded fine">{{ site_category | last | size }}</span> -->
+  <h2 id="{{ category.slug }}" class="hr">
+    <a href="{{ category.url | relative_url }}">{{ category.title }}</a>
+    {% for site_category in categories %}
+      {% if site_category[0] == category.slug %}
+        <span class="faded fine">{{ site_category | last | size }}</span>
+      {% endif %}
+    {% endfor %}
+  </h2>
+  <ul class="related-posts">
+    {% for tag in featured_tags %}
+      {% if tag.category == category.slug %}
+        <li class="h6">
+          <a href="{{ tag.url | relative_url }}">{{ tag.title }}</a>
+          {% for site_tag in tags %}
+            {% if site_tag[0] == tag.slug %}
+              <span class="faded fine">{{ site_tag | last | size }}</span>
+              {% break %}
             {% endif %}
-        {% endfor %}
+        <!-- {% endfor %}
     </h1>
     <ul class="related-posts">
         {% for tag in featured_tags %}
@@ -39,5 +56,10 @@ layout: base
                 </li>
             {% endif %}
         {% endfor %}
-    </ul>
+    </ul> -->
+          {% endfor %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endfor %}
