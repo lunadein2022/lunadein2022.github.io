@@ -39,7 +39,7 @@ keywords: ["Development", "JS", "React", "daily", "Jekyll"]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/me.png
+logo: /assets/img/profile.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -88,7 +88,7 @@ excerpt_separator: <!--more-->
 
 # Sidebar image and theme color of the site.
 accent_image:
-  background: center / cover url(/assets/img/back.jpeg)
+  background: center / cover url(/assets/img/ground.jpeg)
   overlay: false
 accent_color: rgb(0,174,239)
 
