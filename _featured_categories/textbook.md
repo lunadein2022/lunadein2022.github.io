@@ -1,9 +1,10 @@
 ---
 layout: list
 type: category
-title: Textbook
-slug: textbook
-sidebar: false
+title: Online_Class
+slug: online
+order: 5
+sidebar: true
 description: >
-  Any textbook for development
+  Udemy, Coding Apple, Youtube, Open Tutorials... etc
 ---

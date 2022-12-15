@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: Dev. Log
-slug: devlog
+title: Daily
+slug: daily
 sidebar: true
 order: 2
 description: >
-  Anything about development
+  How was my day?
 ---

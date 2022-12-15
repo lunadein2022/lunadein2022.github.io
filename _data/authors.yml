@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    안녕하세요 반갑습니다!
+    일단 뭐라도 되자
 
   # This photo will be used in the about section
   picture:
@@ -26,6 +26,7 @@ author1:
     github: lunadein2022
     # stackoverflow: 4294737
     email: lunadein2022@gmail.com
+    twitter: lunadein2022
     # rss:             https://lazyren.github.io/feed.xml
     # facebook:        <username>
     # google:          <number>
