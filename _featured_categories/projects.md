@@ -1,7 +1,8 @@
 ---
 layout: projects
+type: category
 title: Projects
-show_collection: projects
+slug: projects
 sidebar: true
 order: 7
 description: >

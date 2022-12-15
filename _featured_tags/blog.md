@@ -3,8 +3,8 @@ layout: tag-list
 type: tag
 title: Blog
 slug: blog
-category: devlog
+category: daily
 sidebar: true
 description: >
-   Posts about blogging / jekyll theme.
+  Posts about blogging / jekyll theme.
 ---
