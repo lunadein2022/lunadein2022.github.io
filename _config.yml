@@ -88,7 +88,7 @@ excerpt_separator: <!--more-->
 
 # Sidebar image and theme color of the site.
 accent_image:
-  background: center / cover url(/assets/img/space.jpeg)
+  background: center / cover url(/assets/img/space.jpg)
   overlay: false
 accent_color: rgb(0,174,239)
 
@@ -320,7 +320,7 @@ hydejack:
     dynamic: firstname_lastname_counter
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon: false
+    icon: true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
