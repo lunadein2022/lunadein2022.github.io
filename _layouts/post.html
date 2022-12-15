@@ -17,15 +17,6 @@
 layout: base
 ---
 
-  <form action="/search">
-   <div class="tipue_search_left">
-     <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
-   </div>
-   <div class="tipue_search_right">
-     <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
-   <div style="clear: both;"></div>
- </form>
- 
 {% assign version = jekyll.version | split:'.' %}
 {% assign major = version[0] | plus:0 %}
 {% assign minor = version[1] | plus:0 %}
@@ -41,8 +32,12 @@ layout: base
   {% case addon %}
   {% when 'about' %}
      {% include_cached components/about.html author=page.author %}
+  {% when 'newsletter' %}
+    {% include if-non-null try="pro/newsletter.html" %}
   {% when 'related' %}
-    {% include if-non-null try="components/related-posts.html" %}
+    {% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %}
+  {% when 'random' %}
+    {% include if-non-null try="pro/random-posts.html" %}
   {% when 'comments' %}
     {% include body/comments.html %}
   {% else %}

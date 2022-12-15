@@ -1,128 +1,137 @@
-.dl-table {
-  a {
-    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      text-underline-offset: .7rem;
-    }
-    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      padding-bottom: .3rem;
-    }
+// applause-button
+
+applause-button {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+
+  .count-container {
+    color: inherit;
   }
-  .btn, .gumroad-button  {
-    margin: 1rem 0;
-  }
-}
-.dl-table {
-  a {
-    padding-bottom: 0.4rem;
-  }
-  .btn {
-    margin: 1.5rem 0;
-  }
-}
-// Remove menu button from the top
-#_menu {
-  display:none;
-}
-// Sidebar Modification
-.sidebar {
-  text-align: center;
-}
-.sidebar-sticky {
-  position: absolute;
-  height: 95%;
-  padding-top: 5%;
 }
 
-a.sidebar-nav-item {
-.sidebar-nav-item {
-  width:100%;
-  font-weight: normal;
-  display: block;
-  padding: .25rem 0;
-}
-
-a.sidebar-nav-subitem {
-.sidebar-nav-subitem {
-  @extend .f4;
-  font-weight: normal;
-  display: block;
-  display: inline-block;
-  line-height: 1.75;
-  padding: .25rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.list-wrapper {
-  text-align: left;
-  display: flex;
-}
-.list-body {
-  text-align: left;
-  margin: 4px;
-}
-.sidebar-about {
-  > a.sidebar-title {
-    &::after {
-      width: 9rem;
-    }
-  }
-}
-// Submenu Insertion
-.folder {
-  color: #fff;
-  font-size: x-large;
-  position: absolute;
-  cursor: pointer;
-  right: 30px;
-}
-.folder:hover {
-  color: #4FB1BA;
-}
-input[type="checkbox"]{
+.clap-count {
+  @extend h4;
+  color: var(--accent-color);
   display: none;
+
+  svg {
+    height: 1em;
+    vertical-align: middle;
+    width: 1em;
+  }
+
+  .flat {
+    fill: var(--body-bg);
+  }
+
+  .outline {
+    fill: var(--accent-color);
+  }
 }
-input[type="checkbox"] ~ ul{
-  height: 0;
-  transition: transform .2s ease-out;
-  transform: scaleY(0);
+
+// Utterances
+
+.utterances {
+  max-width: 100%;
 }
-input[type="checkbox"]:checked ~ ul{
-  list-style: none;
-  height: 100%;
-  transform-origin: top;
-  transition: transform .2s ease-out;
-  transform: scaleY(1);
+
+// Giscus
+
+.giscus,
+.giscus-frame {
+  width: 100%;
 }
+
+.giscus-frame {
+  border: none;
+}
+
 // Resume
+
 .project-date {
   font-weight: var(--font-weight);
   display: inline;
 }
-// Printing
-@media print {
-   a[href]:after {
-      display: none;
-      visibility: hidden;
-   }
-  }}}
 
-  .clap-count {
-    @extend h4;
-    color: var(--accent-color);
+// Printing
+
+@media print {
+  a[href]:after {
     display: none;
-  
-    svg {
-      height: 1em;
-      vertical-align: middle;
-      width: 1em;
-    }
-  
-    .flat {
-      fill: var(--body-bg);
-    }
-  
-    .outline {
-      fill: var(--accent-color);
+    visibility: hidden;
+  }
+}
+
+// Image centering
+
+.text-align-center {
+  text-align: center;
+}
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// iframe
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+  margin: 1rem;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+// Codeblock
+
+div.highlight {
+
+  >.pre-header {
+    overflow: hidden;
+
+    > span {
+      font-family: var(--code-font-family);
     }
   }
-  
+}
+
+.highlighter-rouge {
+  border-radius: 0.7em;
+}
+
+// Fancy Codeblock Scrollbar
+
+pre {
+  border-color: transparent;
+  transition: border-color 0.5s ease;
+
+  &::-webkit-scrollbar {
+    height: 8px;
+    width: auto;
+  }
+
+  &:hover {
+    border-color: var(--gray);
+    transition: border-color 0.2s ease;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-color: inherit;
+    border-radius: 10px;
+    border-right-style: inset;
+    border-right-width: calc(100vw + 100vh);
+  }
+}
