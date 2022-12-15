@@ -19,38 +19,39 @@
 lang: ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: Lazy Ren
+title: light, right.
 
 timezone: Asia/Seoul
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  Work Hard to be Lazy.
-  SW Engineer at Samsung Research.
+  be light
+  do right
 
 # A shorter description for the sidebar.
 tagline: >
-  Work Hard to be Lazy.
+  Study with ISTP
 
 # A list of keywords for your blog
-keywords: ["Development", "C++", "Rust", "Jekyll"]
+keywords: ["Development", "JS", "React", "daily", "Jekyll"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/seattle.png
+logo: /assets/img/me.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: subin
+  name: subin Cho
   email: lunadein2022@gmail.com
   picture: /assets/img/profile.png
   social:
-    twitter: lunadein2022
+    # linkedin: daein-lee-3b6ba9139
     github: lunadein2022
-    email: lunadein2022e@gmail.com
+    # stackoverflow: 4294737
+    email: lunadein2022@gmail.com
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -87,7 +88,7 @@ excerpt_separator: <!--more-->
 
 # Sidebar image and theme color of the site.
 accent_image:
-  background: center / cover url(/assets/img/music-cat-no-loop.gif)
+  background: center / cover url(/assets/img/back.jpeg)
   overlay: false
 accent_color: rgb(0,174,239)
 

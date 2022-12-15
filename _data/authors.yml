@@ -3,19 +3,16 @@
 # Change `author1` to your shortname.
 author1:
   name: subin cho
-  email: daein0lee@gmail.com
+  email: lunadein2022@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    HANA Core Developer at [SAP Labs Korea](https://www.sap.com/korea/about/labs-korea.html).<br>
-    Please check my [Resume][resume] to find out more about me!<br>
-
-    [resume]: /resume/
+    안녕하세요 반갑습니다!
 
   # This photo will be used in the about section
   picture:
-    path: /assets/img/seattle.png
+    path: /assets/img/profile.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     # srcset:
     #   1x:
@@ -25,10 +22,10 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    linkedin: daein-lee-3b6ba9139
-    github: lazyren
-    stackoverflow: 4294737
-    email: lazy0ren@gmail.com
+    # linkedin: daein-lee-3b6ba9139
+    github: lunadein2022
+    # stackoverflow: 4294737
+    email: lunadein2022@gmail.com
     # rss:             https://lazyren.github.io/feed.xml
     # facebook:        <username>
     # google:          <number>
