@@ -473,3 +473,5 @@ feed:
     - daily
     - review
     - studylog
+
+favicon: /favicon.ico
