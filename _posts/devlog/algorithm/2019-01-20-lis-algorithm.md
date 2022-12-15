@@ -6,21 +6,21 @@ category: devlog
 tags: algorithm
 ---
 
-* LIS (Longest Increasing Subsequence) : 최장 증가 부분수열<br>
-LIS란 임의의 수열이 주어졌을 때, 해당 수열에서 몇 개의 수들을 뽑아 만든 부분수열 중 오름차순으로 정렬된(strictly increasing) 가장 긴 수열을 뜻합니다.
+- LIS (Longest Increasing Subsequence) : 최장 증가 부분수열<br>
+  LIS란 임의의 수열이 주어졌을 때, 해당 수열에서 몇 개의 수들을 뽑아 만든 부분수열 중 오름차순으로 정렬된(strictly increasing) 가장 긴 수열을 뜻합니다.
 
 이 때 LIS의 길이를 구하는 방법은 크게 세가지가 있습니다.
 
-* DP            O(*n*<sup>2</sup>)
-* Binary Search O(*n*log*n*)
-* Segment Tree  O(*n*log*n*)
+- DP O(_n_<sup>2</sup>)
+- Binary Search O(*n*log*n*)
+- Segment Tree O(*n*log*n*)
 
 오늘은 이 중 Binary Search, 즉 이분 탐색을 이용해 LIS의 길이와 수열을 찾는 방법을 알아보겠습니다.
 
 <!--more-->
 
-* this unordered seed list will be replaced by the toc
-{:toc}
+- this unordered seed list will be replaced by the toc
+  {:toc}
 
 ## 이분탐색을 이용한 LIS의 길이 구하기
 
@@ -30,8 +30,8 @@ C++로 해당 알고리즘을 구현하기 위해서는 [lower_bound()] 함수�
 
 주어진 값보다 작지 않은(같거나 큰) 첫번째 원소의 iterator를 리턴합니다.<br>
 
-idx: [0  1  2  3  4  5  6]<br>
-val: [1  2  3  4  4  5  6] 에서 4를 찾을 경우 idx 3에 위치한 iterator를 리턴합니다.
+idx: [0 1 2 3 4 5 6]<br>
+val: [1 2 3 4 4 5 6] 에서 4를 찾을 경우 idx 3에 위치한 iterator를 리턴합니다.
 
 lower_bound() 함수의 **시간 복잡도**는 O(log*n*)입니다.<br>
 
@@ -45,7 +45,7 @@ lower_bound() 함수의 **시간 복잡도**는 O(log*n*)입니다.<br>
 
 **이 때 생성된 ans 벡터는 LIS가 아닙니다!!**<br>
 
-예를 들어 input 벡터가 [3  2  5  2  3  1  4] 일 때, 생성되는 ans 벡터는 [1  3  4]가 출력되겠지만, [1  3  4]는 기존 수열의 부분 수열이 될 수 없습니다.<br>
+예를 들어 input 벡터가 [3 2 5 2 3 1 4] 일 때, 생성되는 ans 벡터는 [1 3 4]가 출력되겠지만, [1 3 4]는 기존 수열의 부분 수열이 될 수 없습니다.<br>
 
 ```c++
 #include <cstdio>
@@ -87,7 +87,7 @@ int main()
 
 O(log*n*)의 lower_bound() 함수를 최대 *n*번 실행시키므로 시간 복잡도는 O(*n*log*n*) 임을 알 수 있습니다<br>
 
-* 추천 문제: [12738: 가장 긴 증가하는 부분 수열 3]
+- 추천 문제: [12738: 가장 긴 증가하는 부분 수열 3]
 
 ## 역추적(Backtracking)을 통한 LIS 수열 구하기
 
@@ -166,18 +166,34 @@ vi lis(const vii &inp)
 변경 부분을 강조하기 위해서 주석으로 나타내 보았습니다. 실제로 앞서 보았던 코드와 비교했을때 추가된 코드가 몇 줄 안됩니다.<br>
 lis() 함수 내의 두번째 for 문을 통해 backtracking 하며 LIS에 속하는 원소들을 lis 벡터에 집어넣는 것을 확인할 수 있습니다.
 
-* 추천 문제: [14003: 가장 긴 증가하는 부분 수열 4]
+- 추천 문제: [14003: 가장 긴 증가하는 부분 수열 4]
 
 ## Reference
 
-* [나무위키] - 알고리즘을 따라가기 쉽도록 step by step으로 나와있습니다.
-* [참고 사이트]
-* [LIS 문제집]
+- [나무위키] - 알고리즘을 따라가기 쉽도록 step by step으로 나와있습니다.
+- [참고 사이트]
+- [LIS 문제집]
 
 <!-- Links -->
+
 [lower_bound()]: http://www.cplusplus.com/reference/algorithm/lower_bound/ "C++ Reference"
 [12738: 가장 긴 증가하는 부분 수열 3]: https://www.acmicpc.net/problem/12738 "12738"
 [14003: 가장 긴 증가하는 부분 수열 4]: https://www.acmicpc.net/problem/14003 "14003"
 [나무위키]: https://namu.wiki/w/%EC%B5%9C%EC%9E%A5%20%EC%A6%9D%EA%B0%80%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4 "최장 증가 부분 수열"
 [참고 사이트]: http://gumgood.tistory.com/entry/Longest-Increasing-Subsequence "gumgood"
-[LIS 문제집]: https://www.acmicpc.net/workbook/view/801 "문제집: LIS(cokcjswo)"
+[lis 문제집]: https://www.acmicpc.net/workbook/view/801 "문제집: LIS(cokcjswo)"
+
+<script src="https://giscus.app/client.js"
+        data-repo="lunadein2022/lunadein2022.github.io"
+        data-repo-id="R_kgDOImIbYw"
+        data-category-id="DIC_kwDOImIbY84CTFXQ"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light_tritanopia"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>

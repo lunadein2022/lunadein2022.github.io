@@ -211,14 +211,14 @@ comments:
 giscus:
   repo: "lunadein2022/lunadein2022.github.io"
   repo-id: "R_kgDOImIbYw"
-  category: "Comments"
+  category: "General"
   category-id: "DIC_kwDOImIbY84CTFXQ"
   mapping: "pathname"
   data-strict: "0"
   reaction-enabled: "1"
   data-emit-metadata: "0"
   data-input-position: "top"
-  theme: "light_tritanopia"
+  theme: "dark dimmed"
   data-lang: "ko"
   crossorigin: "anonymous"
 
