@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: Rust
-slug: rust
+title: Html & CSS
+slug: html & css
 category: studylog
 sidebar: true
 description: >
-   Rust related posts
+  HTML, CSS
 ---
