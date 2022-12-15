@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: JavaScript
-slug: javascript
+title: React
+slug: react
 category: studylog
 sidebar: true
 description: >
-  JavaScript
+  React, ReStart..!
 ---

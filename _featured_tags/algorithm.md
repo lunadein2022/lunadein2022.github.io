@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: JavaScript
-slug: javascript
+title: Algorithm
+slug: algorithm
 category: studylog
 sidebar: true
 description: >
-  JavaScript
+  solve an algorithm
 ---
