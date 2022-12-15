@@ -1,9 +1,9 @@
 ---
 layout: list
 type: category
-title: Online_Class
-slug: online
-order: 5
+title: Class
+slug: class
+order: 4
 sidebar: true
 description: >
   Udemy, Coding Apple, Youtube, Open Tutorials... etc

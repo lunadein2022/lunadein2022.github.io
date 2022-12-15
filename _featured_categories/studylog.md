@@ -1,7 +1,7 @@
 ---
 layout: list
 type: category
-title: Study Log
+title: study.log
 slug: studylog
 sidebar: true
 order: 3

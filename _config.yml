@@ -474,4 +474,4 @@ feed:
     - review
     - studylog
 
-favicon: /favicon.ico
+favicon: "/favicon.ico"
