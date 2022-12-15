@@ -1,11 +1,10 @@
 ---
-layout: projects
+layout: list
 type: category
 title: Projects
 slug: projects
 sidebar: true
-order: 7
+order: 1
 description: >
-  All the projects I've done so far.
-no_groups: true
+  Reviews in this every stuff
 ---

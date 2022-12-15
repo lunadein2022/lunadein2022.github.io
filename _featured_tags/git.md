@@ -3,8 +3,8 @@ layout: tag-list
 type: tag
 title: Git
 slug: git
-category: devlog
+category: daily
 sidebar: false
 description: >
-   Any article related to Git.
+  Any article related to Git.
 ---

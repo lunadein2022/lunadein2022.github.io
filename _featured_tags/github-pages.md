@@ -3,8 +3,8 @@ layout: tag-list
 type: tag
 title: Github Pages
 slug: github-pages
-category: devlog
+category: daily
 sidebar: false
 description: >
-   Website hosted via github.
+  Website hosted via github.
 ---

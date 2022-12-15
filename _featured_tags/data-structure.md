@@ -4,7 +4,7 @@ type: tag
 title: Data Structure
 slug: data-structure
 category: devlog
-sidebar: false
+sidebar: true
 description: >
-   STL-like Data Structure Implementations
+  STL-like Data Structure Implementations
 ---

@@ -3,8 +3,8 @@ layout: tag-list
 type: tag
 title: Bw-Tree
 slug: bwtree
-category: devlog
+category: daily
 sidebar: true
 description: >
-   [OpenBwTree](https://github.com/LazyRen/BwTree) Analysis for Grad Thesis
+  [OpenBwTree](https://github.com/LazyRen/BwTree) Analysis for Grad Thesis
 ---
