@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: Projects
-slug: projects
+title: Toys
+slug: toys
 sidebar: true
 order: 3
 description: >
-  Reviews in this every stuff
+  my toys
 ---

@@ -158,11 +158,11 @@ defaults:
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
-  - scope:
-      type: projects
-    values:
-      seo:
-        type: WebPage
+  # - scope:
+  #     type: projects
+  #   values:
+  #     seo:
+  #       type: WebPage
   - scope:
       type: featured_categories
     values:
@@ -214,12 +214,12 @@ giscus:
   category: "General"
   category-id: "DIC_kwDOImIbY84CTFXQ"
   mapping: "pathname"
-  data-strict: "0"
+  # data-strict: "0"
   reaction-enabled: "1"
-  data-emit-metadata: "0"
+  # data-emit-metadata: "0"
   data-input-position: "top"
   theme: "dark dimmed"
-  data-lang: "ko"
+  # data-lang: "ko"
   crossorigin: "anonymous"
 
 lightbox: true
@@ -235,11 +235,11 @@ lightbox: true
 hydejack:
   # Configure the order of complementary content on blog posts
   # post_addons:         [about, newsletter, related, random, comments]
-  post_addons: [about, comments]
+  post_addons: [about]
 
   # Configure the order of complementary content on project pages
   # project_addons:      [about, newsletter, other, comments]
-  project_addons: [about, other, comments]
+  project_addons: [about, other]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external: true
@@ -456,16 +456,16 @@ jekyll_compose:
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
-    projects:
-      layout: project
-      description: >
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
-      image:
-        path: /assets/img/sidebar-bg.jpg
-      links:
-        - title: Project Link
-          url: https://example.com
+    # projects:
+    #   layout: project
+    #   description: >
+    #     A short ~160 character description of your post for search engines,
+    #     social media previews, etc.
+    #   image:
+    #     path: /assets/img/sidebar-bg.jpg
+    #   links:
+    #     - title: Project Link
+    #       url: https://example.com
 
 # jekyll-feed settings
 feed:
