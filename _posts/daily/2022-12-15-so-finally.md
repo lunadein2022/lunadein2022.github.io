@@ -33,8 +33,8 @@ tag: daily blog
 <br>
 
 {:.text-align-center}
-![ground](../../assets/img/2022/2022-12-15/74a4ee39-b80d-4141-82f0-9fd3735422dd_text.gif){:width="40%"}
-![back](../../assets/img/2022/2022-12-15/image.jpeg){:width="40%"}   
+![ground](../../assets/img/2022/12/16/itcrowd.gif){:width="40%"}
+![back](../../assets/img/2022/12/16/yeah.jpeg){:width="40%"}{:.centered} 
 
 <br>
 
