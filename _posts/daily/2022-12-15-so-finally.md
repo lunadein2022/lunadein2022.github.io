@@ -10,7 +10,7 @@ tag: daily blog
 
 우선, 블로그 만들고 공부하느라 어지러웠던 심신을 달래주었던 음악을 공유한다.
 <div class="iframe-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/AawLM81gIHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="514" height="285" src="https://www.youtube.com/embed/AawLM81gIHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>{:.centered}
 
 
@@ -19,27 +19,27 @@ tag: daily blog
 >그 말인 즉슨 *2 기록되지 못하고 뽑힌 잔디들을 기억하고자 하는 것이 이 포스팅의 목적이란 것.
 
 
-<div>
-![favicon](../../assets/icons/android-chrome-192x192.png){:.centered}
+
+![](../../assets/icons/apple-touch-icon.png){:.centered}
 위 아이콘은 이 블로그의 파비콘이 되려던 아이였으나 어떻게 하는지 몰라 그대로 폴더 숲에 버려졌다.
 {:.figcaption}
-</div>
 
 
-<div>
+
+
 {:.text-align-center}
-![ground](../../assets/img/ground.jpeg){:width="40%"}
-![back](../../assets/img/back.jpeg){:width="40%"}   
+![ground](../../assets/img/2022/2022-12-15/74a4ee39-b80d-4141-82f0-9fd3735422dd_text.gif){:width="40%"}
+![back](../../assets/img/2022/2022-12-15/image.jpeg){:width="40%"}   
 
 위 사진은 마크다운 사용법에 익숙해지고자 그냥 넣어본 사진.   
 과연 이 사진은 가운데 정렬이 될 것인가 (css와의 합작이다)  
-</div>  
+
 
 
 많은 후기들이 올라와 있는 초 인기 테마를 선택했다면 블로그를 만드는 길이 조금은 쉬웠을까..   
 하지만 [hydejack](https://hydejack.com)테마가 내 맘에 쏙 들었기 때문에 선택은 하나 뿐이었다.   
 
-####아무튼 블로그를 만들고 난 뒤, 드는 생각을 몇 가지 꼽자면
+#### 아무튼 블로그를 만들고 난 뒤, 드는 생각을 몇 가지 꼽자면
 
 1. 나도 **트친**이 있었으면 좋겠다. **트위터 계정**을 올려뒀으니 많관부.
 2. 공부한 내용을 올리게 될텐데 부디 **깃헙 블로그 용량제한**에 걸리길..
@@ -53,6 +53,5 @@ tag: daily blog
 
 ---
 
-###Original_Source
-마크다운 글 작성법   
-https://lynmp.com/en/article/title/how-to-use-markdown-oz811c9dc5pz
+### Original_Source
+[마크다운 글 작성법](https://lynmp.com/en/article/title/how-to-use-markdown-oz811c9dc5pz)
