@@ -1,10 +1,7 @@
 ---
-layout: about
-permalink: /about/
+layout: list
+title: Posts
+description: >
+  All the posts in blog.
+grouped: true
 ---
-
-# About
-
-<!--author-->
-
-반갑습니다
