@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: resume
 title: Resume
 permalink: /resume/
@@ -25,4 +25,4 @@ buttons:
   print: false
   pdf: /assets/Resume.pdf
   json: /assets/resume.json
---- -->
+---

@@ -3,8 +3,8 @@ layout: tag-list
 type: tag
 title: Algorithm
 slug: algorithm
-category: studylog
+category: devlog
 sidebar: true
 description: >
-  solve an algorithm
+   Algorithm study / Problem solutions
 ---

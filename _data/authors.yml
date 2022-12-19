@@ -2,17 +2,19 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: subin cho
-  email: lunadein2022@gmail.com
+  name:              subin Cho
+  email:             lunadein2022@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about: |
+  about:             |
     일단 뭐라도 되자
+
+    [resume]: /resume/
 
   # This photo will be used in the about section
   picture:
-    path: /assets/img/profile.png
+    path:            /assets/img/seattle.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     # srcset:
     #   1x:
@@ -22,11 +24,11 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    # linkedin: daein-lee-3b6ba9139
-    github: lunadein2022
-    # stackoverflow: 4294737
-    email: lunadein2022@gmail.com
-    twitter: lunadein2022
+    # linkedin:        daein-lee-3b6ba9139
+    github:          lunadein2022
+    twitter:          lunadein2022
+    # stackoverflow:   4294737
+    email:           lunadein2022@gmail.com
     # rss:             https://lazyren.github.io/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -61,6 +63,7 @@ author1:
     # paypal:          <username>
     # download:        <url>
     # keybase:         <username>
+
 # Another author (optional)
 # author2:
 #   name:              <firtname> <lastname>

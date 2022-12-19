@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: study.log
+title: Study Log
 slug: studylog
 sidebar: true
-order: 2
+order: 3
 description: >
-  Did you study it yourself? Oh Really?
+  Log study results
 ---

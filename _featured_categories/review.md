@@ -6,5 +6,5 @@ slug: review
 sidebar: true
 order: 4
 description: >
-  Reviews in this every stuff
+  Reviews on hardware/software
 ---
