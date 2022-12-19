@@ -1,13 +1,3 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68290006-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-68290006-3');
-</script>
-
 <script>{% include scripts/load-js.min.js %}{% include scripts/loadCSS.min.js %}{% include scripts/cssrelpreload.min.js %}!function(w) {
   w._baseURL = '{{    "/"           | relative_url }}';
   w._publicPath = '{{ "/assets/js/" | relative_url }}';
@@ -22,8 +12,10 @@
     STORAGE_KEY: 'mini-search{{ "/" | relative_url }}',
     INDEX_KEY: 'index--{{ site.time | date_to_xmlschema }}',
   };
+  w._clapButton = {% if site.clap_button or jekyll.environment != 'production' %}true{% else %}false{% endif %};
 }(window);</script>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4480895057771343"
+     crossorigin="anonymous"></script>
 {% if site.kramdown.math_engine == 'mathjax' %}
 <script async src="{{ 'assets/bower_components/MathJax/es5/tex-mml-chtml.js' | relative_url }}" id="_MathJax"></script>
 {% endif %}

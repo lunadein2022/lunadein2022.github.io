@@ -10,62 +10,62 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
-pages:                 Pages
-posts:                 Posts
+home:                  홈
+pages:                 페이지
+posts:                 포스트
 about:                 About
-related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
+related_posts:         관련 포스트
+other_projects:        다른 프로젝트
+comments:              댓글
 jump_to:               Jump to
 navigation:            Navigation
-social:                Social
+social:                소셜
 links:                 Links
 links_icon:            'icon-link'
 pagination:            Pagination
-newer:                 Newer
-older:                 Older
-forward:               Forward
-back:                  Back
-permalink:             Permalink
+newer:                 최신순
+older:                 오래된순
+forward:               앞으로
+back:                  뒤로
+permalink:             영구링크
 permalink_icon:        'content-hash'
 templates:             Templates (for web app)
 present:               present
-toc:                   Table of Contents
-note:                  Note
-description:           Description
-search:                Search
-search_placeholder:    Type something…
+toc:                   컨텐츠 테이블
+note:                  노트
+description:           설명
+search:                검색
+search_placeholder:    입력해주세요…
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading:               로딩…
+redirecting:           리다이렉트 중…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  더 읽기 <!--post_title-->
 
 cookies_banner:
   text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
-  okay:                Okay
+    이 사이트는 쿠키를 사용합니다. [Cookies Policy](/cookies-policy/).
+  okay:                예
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404: 페이지를 찾을 수 없습니다.'
   message:             |
     Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
     <!--home_link--> to try finding it again.
   home_link:           Head back home
 
 offline:
-  title:               'You are Offline'
+  title:               '오프라인입니다.'
   message:             |
     Sorry, but you appear to be offline and this page has not been prepared for offline viewing.
     <!--home_link--> to try finding another page.
   home_link:           Head back home
 
 error:
-  title:               Error
+  title:               오류
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    죄송합니다. 페이지를 불러오는 중에 오류가 발생하였습니다. <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
@@ -85,14 +85,14 @@ breadcrumbs_separator: '/'
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%d %b %Y'
+  post:                '%Y %b %d'
   last_modified_at:    '%Y-%m-%d'
-  related_post:        '%d %b %Y'
+  related_post:        '%Y %b %d'
   list_group_by:       '%Y'
-  list_entry:          '%d %b'
+  list_entry:          '%b %d'
   project:             '%Y'
   projects_group_by:   '%Y'
-  resume:              '%b %Y'
+  resume:              '%Y %b'
 
 
 # PRO Version
@@ -115,8 +115,8 @@ tinyletter:
     {:.faded}
 
 welcome:
-  more_projects:       See <!--projects_title--> for more
-  more_posts:          See <!--posts_title--> for more
+  more_projects:       <!--projects_title--> 더 보기
+  more_posts:          <!--posts_title--> 더 보기
 
 resume:
   location:            Location
@@ -124,30 +124,27 @@ resume:
   email:               Email
   phone:               Phone
   website:             Website
-  work:                Experience
-  work_title:          <!--position--> at <!--company-->
-  highlights:          Highlights
-  volunteer:           Volunteer
-  volunteer_title:     <!--position--> at <!--organization-->
-  education:           Education
-  education_title:     <!--study_type--> in <!--area--><br>&emsp;&emsp;from <!--institution--> with GPA of <!--gpa-->
-  certificate_title:   <!--certificate-->
-  projects:            Projects
-  projects_title:      "<!--title-->: <!--date-->"
-  courses:             Courses
-  awards:              Awards
-  awards_title:        <!--title--><br>&emsp;&emsp;from <!--awarder-->
+  work:                이력
+  work_title:          <!--company-->에서 <!--position-->
+  highlights:          주요
+  volunteer:           봉사활동
+  volunteer_title:     <!--organization-->에서 <!--position-->
+  education:           학력
+  education_title:     <!--institution--> <!--area--> <!--study_type-->
+  courses:             코스
+  awards:              수상
+  awards_title:        <!--awarder--> 에서 <!--title-->
   publications:        Publications
   publications_title:  <!--name--> by <!--publisher-->
-  references:          References
-  languages:           Languages
+  references:          참조
+  languages:           언어
   fluency:             Fluency
-  skills:              Skills
-  level:               Level
-  interests:           Interests
-  summary:             Summary
-  keywords:            Keywords
-  print:               Print
+  skills:              스킬
+  level:               레벨
+  interests:           관심
+  summary:             요약
+  keywords:            키워드
+  print:               프린트
   download_pdf:        PDF
   download_vcf:        vCard
   download_json:       JSON
@@ -163,7 +160,6 @@ resume:
     work:              icon-briefcase
     volunteer:         icon-earth
     education:         icon-library
-    projects:          icon-cog
     awards:            icon-trophy
     publications:      icon-book
     references:        icon-quotes-right

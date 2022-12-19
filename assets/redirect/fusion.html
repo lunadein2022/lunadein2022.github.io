@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>3!2! Fusion! Play now!</title>
+    <meta charset="utf-8" />
+    <script>
+        function getMobileOperatingSystem() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            return "unknown";
+        }</script>
+
+    <script>
+        function DetectAndServe() {
+            let os = getMobileOperatingSystem();
+            if (os == "Android") {
+                //market://details?id=com.skaiblue.threetwofusion
+                window.location.href = "market://details?id=com.skaiblue.threetwofusion";
+            } else if (os == "iOS") {
+                window.location.href = "https://itunes.apple.com/app/id1464543679?mt=8";
+            }
+        }
+    </script>
+    <style>
+        @media (max-width: 1024px) {
+            main {
+                margin: 16px;
+                width: 100%;
+            }
+        }
+
+        @media(min-width: 1025px) {
+            main {
+                margin: 8px auto 8px auto;
+                width: 400px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body onload="DetectAndServe()">
+    <main>
+        <img style="width: 100%" src="https://skaiblue.github.io/assets/img/thumbnails/fusion.png" alt
+            title="thumbnails">
+        <div>
+            <div>
+                <a class="link" href="https://itunes.apple.com/app/id1464543679?mt=8">
+                    <img src="https://skaiblue.github.io/assets/img/etc/appstore.png">
+                </a>
+            </div>
+            <div>
+                <a class="link" href="market://details?id=com.skaiblue.threetwofusion">
+                    <img src="https://skaiblue.github.io/assets/img/etc/playstore.png">
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

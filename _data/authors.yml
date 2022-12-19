@@ -2,32 +2,32 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: subin cho
-  email: lunadein2022@gmail.com
+  name:              Jong Woo Park
+  email:             <jwmtp2@gmail.com>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about: |
-    일단 뭐라도 되자
+  about:             |
+    백엔드 엔지니어 **SKAIBlue**입니다.<br/>
+    `게임`, `모바일`, `프론트엔드`, `백엔드` 등 다양한 분야의 개발 경험이 있습니다.<br/>
+    현재는 **백엔드 엔지니어 커리어에 집중**하고 있고, 특히 `마이크로서비스`에 관심이 많습니다.
 
   # This photo will be used in the about section
   picture:
-    path: /assets/img/profile.png
+    path:            https://placehold.it/128x128
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    # srcset:
-    #   1x:
-    #   2x:
+    srcset:
+      1x:            https://placehold.it/128x128
+      2x:            https://placehold.it/256x256
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    # linkedin: daein-lee-3b6ba9139
-    github: lunadein2022
-    # stackoverflow: 4294737
-    email: lunadein2022@gmail.com
-    twitter: lunadein2022
-    # rss:             https://lazyren.github.io/feed.xml
+    # twitter:         <username>
+    github:          SKAIBlue
+    email:           jwmtp2@gmail.com
+    # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
@@ -45,22 +45,25 @@ author1:
     # deviantart:      <username>
     # ello:            <username>
     # twitch:          <username>
-    # steam:           76561198031392006
+    # steam:           <number>
     # reddit:          <username>
     # tumblr:          <username>
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
+    # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
+    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
-    # keybase:         <username>
+    # keybase          <username>
+
 # Another author (optional)
 # author2:
 #   name:              <firtname> <lastname>
