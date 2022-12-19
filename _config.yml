@@ -26,13 +26,11 @@ timezone:              Asia/Seoul
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-Smile the Door!
+description:           >Smile the Door!
+
 
 # A shorter description for the sidebar.
-tagline:               >
-  Knock, Knock
-Smile the Door!
+tagline:               >Smile the Door!
 
 # A list of keywords for your blog
 keywords:              ["Development", "JS", "CSS", "HTML", "HydeJack"]
