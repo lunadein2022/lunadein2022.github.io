@@ -2,8 +2,8 @@
 layout:   post
 title:    "Rustlings Solution"
 subtitle: "Rustlings Solution"
-category: studylog
-tags:     rust rustlings
+category: daily
+tags:     daily
 image:
   path:   /assets/img/ferris/flat-gesture.svg
 ---

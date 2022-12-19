@@ -1,7 +1,7 @@
 ---
 layout: list
 type: category
-title: study
+title: Study
 slug: study
 sidebar: true
 order: 2
