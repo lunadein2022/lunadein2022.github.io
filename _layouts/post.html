@@ -41,8 +41,8 @@ hide_description=page.hide_description %}
     {% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %} -->
 {% when 'random' %}
 {% include if-non-null try="pro/random-posts.html" %}
-<!-- {% when 'comments' %}
-    {% include body/comments.html %} -->
+{% when 'comments' %}
+{% include body/comments.html %}
 {% else %}
 {% endcase %}
 {% endfor %}
