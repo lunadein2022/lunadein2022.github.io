@@ -1,13 +1,6 @@
-## local debug
-```
-bundle install
-bundle exec jekyll serve --livereload --incremental
-```
-Now point to and point your browser to http://localhost:4000
+# 👋 Hello!
 
-## local compile
-Build your site locally by running either of the following in your terminal.
-```
-JEKYLL_ENV=production bundle exec jekyll build
-JEKYLL_ENV=production jekyll build
-```
+### ✉ You can reach me
+
+- Email : [lunadein2022@gmail.com](mailto:lunadein2022@gmail.com)
+- Blog(Korean) : https://lunadein2022.github.io/
