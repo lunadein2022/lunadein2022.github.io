@@ -1,211 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
-    
-<title>{{ page.title }} | {{site.name}}</title>
-    
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %} 
-    
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    
-<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-    
-<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
-    
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-    
-</head>
-    
-{% if jekyll.environment == 'production' %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-  ga('create', '{{site.google_analytics}}', 'auto');
-  ga('send', 'pageview');
-</script>
-{% endif %}
-    
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{ layout }}">
+layout: base
+---
 
-    
-<!-- Begin Menu Navigation
-================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
-    
-    <div class="container pr-0">    
-    
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>
-    <!-- End Logo -->
-  
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-       
-        <!-- Begin Menu -->
-        
-            <ul class="navbar-nav ml-auto">
-                
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
-                </li>
-                
-                {% if page.url == "/about.html" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-                
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.buymeacoffee.com/android10"><i class="fas fa-coffee"></i> Invite me a coffee</a>
-                </li>
+{% assign strings = site.data.strings %}
 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://twitter.com/fernando_cejas"><i class="fab fa-twitter"></i></a>
-                </li>
-                
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/android10"><i class="fab fa-github"></i></a>
-                </li>
-                
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.facebook.com/Penano/"><i class="fab fa-facebook-f"></i></a>
-                </li>
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.instagram.com/fernando_cejas/"><i class="fab fa-instagram"></i></a>
-                </li>
-                
-            </ul>		
-  
-        <!-- End Menu -->
+  {{ content }}
 
-    </div>
-        
-    </div>
-</nav>
-<!-- End Navigation
-================================================== -->
-    
-<div class="site-content">   
-<div class="container">
-    
-<!-- Site Title
-================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-         {{ site.description }}
-    </p>
-</div>
+  <hr class="dingbat related"/>
 
-    
-    
-<!-- Content
-================================================== --> 
-<div class="main-content">
-    {{ content }}
-</div>
+  {% if site.posts.size > 0 %}
+    <h2 class="hr-bottom">{{ strings.posts | default:"Posts" }}</h2>
+    <ul class="related-posts">
+      {% for post in site.posts limit:5 %}
+        {% include_cached components/post-list-item.html post=post %}
+      {% endfor %}
+    </ul>
+  {% endif %}
 
-<!-- Bottom Alert Bar
-================================================== -->
-<div class="alertbar">
-	<div class="container text-center">
-		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from this blog, subscribe to the newsletter!</span>
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-            <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
-            </div>
-        </form>
-	</div>
-</div>    
-    
-</div><!-- /.container>
-    
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-	<div class="d-flex h-100">
-		<div class="col-md-4 align-self-center text-center h-100">
-            <div class="d-flex align-items-center justify-content-center h-100">
-			 <h2 class="d-md-block d-none align-self-center">Explore →</h2>
-            </div>
-		</div>
-		<div class="col-md-8 align-self-center text-center">
-          {% assign tags_list = site.categories %}  
-          {% if tags_list.first[0] == null %}
-            {% for tag in tags_list %} 
-              <a href="{{ site.baseurl }}/category/{{ tag }}">{{ tag | capitalize }} {{ site.tags[tag].size }}</a>
-            {% endfor %}
-          {% else %}
-            {% for tag in tags_list %} 
-              <a href="{{ site.baseurl }}/category/{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a>
-            {% endfor %}
-          {% endif %}
-        {% assign tags_list = nil %}
-
-		</div>
-	</div>
-</div>
- 
-
-
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                 Copyright <a target="_blank" href="{{ site.baseurl }}/resume.pdf">©</a> {{ site.time | date: "%Y" }} {{ site.name }} 
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                Follow me on <a target="_blank" href="https://twitter.com/fernando_cejas">Twitter</a> or  <a target="_blank" href="https://github.com/android10">Github.</a>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End Footer
-================================================== -->
-
-   
-</div> <!-- /.site-content>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-    
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    
-<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
-    
-<script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
-    
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-</body>
-</html>
+  {% assign pages = site.html_pages | where:"layout","page" | where_exp:"page","page.sitemap != false" %}
+  {% if pages.size > 0 %}
+    <h2 class="hr-bottom">{{ strings.pages | default:"Pages" }}</h2>
+    <ul class="related-posts">
+      {% for page in pages limit:5 %}
+        {% if page.layout == 'page' %}
+          <li class="h4">
+            <a href="{{ page.url | relative_url }}" class="flip-title">
+              <span>{{ page.title }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</article>
