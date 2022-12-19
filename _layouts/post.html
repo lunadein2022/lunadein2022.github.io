@@ -37,8 +37,8 @@ hide_description=page.hide_description %}
 {% include_cached components/about.html author=page.author %}
 {% when 'newsletter' %}
 {% include if-non-null try="pro/newsletter.html" %}
-<!-- {% when 'related' %}
-    {% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %} -->
+{% when 'related' %}
+{% include if-non-null try="pro/related-posts.html" fallback="components/related-posts.html" %}
 {% when 'random' %}
 {% include if-non-null try="pro/random-posts.html" %}
 {% when 'comments' %}

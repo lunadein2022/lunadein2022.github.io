@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: Dev. Log
-slug: devlog
+title: study
+slug: study
 sidebar: true
 order: 2
 description: >
-  Anything about development
+  Did you study it yourself? Oh Really?
 ---

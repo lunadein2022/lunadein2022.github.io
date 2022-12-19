@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: Study Log
-slug: studylog
+title: Daily
+slug: daily
 sidebar: true
-order: 3
+order: 2
 description: >
-  Log study results
+  How was my day?
 ---

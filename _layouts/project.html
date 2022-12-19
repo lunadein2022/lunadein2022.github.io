@@ -89,8 +89,8 @@ layout: base
 {% include if-non-null try="pro/newsletter.html" %}
 {% when 'other' %}
 {% include if-non-null try="pro/other-projects.html" %}
-<!-- {% when 'comments' %}
-    {% include body/comments.html %} -->
+{% when 'comments' %}
+{% include body/comments.html %}
 {% else %}
 {% endcase %}
 {% endfor %}

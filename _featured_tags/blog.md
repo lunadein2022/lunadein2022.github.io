@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: Blog
-slug: blog
-category: devlog
+title: Html,CSS
+slug: html,css
+category: study
 sidebar: true
 description: >
-   Posts about blogging / jekyll theme.
+  HTML, CSS
 ---
