@@ -91,7 +91,7 @@ remote_theme: hydecorp/hydejack@v9
 # Sidebar image and theme color of the site.
 accent_image:
   background:          center / cover url(/assets/img/bg.gif)
-  overlay:             false
+  overlay:             true
 accent_color:          rgb(0,174,239)
 
 # This is used for the `theme-color` meta tag,
@@ -458,21 +458,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg1.jpg
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg2.jpg
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/bg3.jpg
       links:
         - title: Project Link
           url: https://example.com
