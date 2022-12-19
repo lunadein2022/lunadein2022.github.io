@@ -1,42 +1,57 @@
 ---
-layout: welcome
-title: About
-permalink: /about/
-more_posts: posts.md
-sidebar: true
-order: 1
+layout: page
+title: About ME and this BLOG
+comments: false
 ---
 
-## Hello, World!
+**It is always tough to describe yourself, isn't it?** Anyway, I consider myself a **nerdy geek** let's say, and a strong believer of **sharing** in all senses. That is why this blog exists actually. 
+{: .text-justify}
 
-HTML/CSS/JavaScript<br>
-React...etc<br>
-2022년 10월 20일 프론트엔드 교육 시작<br>
-아직 꼬꼬마지만 꿈은 창공을 가로지르는 새마냥 자유롭게 꾸고싶은 사람입니다.<br>
-그리고 <span style='background-color: #ffdce0'>[게임]</span>과 <span style='background-color: #dcffe4'>[락음악]</span>, <span style='background-color: #f5f0ff'>[팟캐스트]</span>, 여행, 전자기기를 좋아합니다.<br>
-깃헙 블로그 만드는 데.. 커밋을 과장없이 500번은 넘게 한 것 같습니다.<br>
-휴 정말 어려웠고 앞으로도 어려울 것 같지만 뭐 그냥 합니다.<br>
-아래는 포스팅 목록입니다. (과자 포스틱이 생각나는 순간입니다.(?))
+Story telling about profesional and personal experiences is something very important to me, not only for learning purpose but also to avoid others to hit their head against a brick wall and avoid the mistakes that I have made in my life. 
+{: .text-justify}
 
----
+But wait! Not everything is negative, I promise you will also find **useful content** here, or at least **something valuable** you can take advantage of.
+{: .text-justify}
 
-<!--posts_list-->
+Let me bring up a bunch of phrases I strongly identify with:
+{: .text-justify}
 
----
+>Kindness is one of the greatest gifts you can bestow upon another.
 
-## 뭔 생각을 해. 그냥 하는거지
+>If someone is in need, lend them a helping hand. Do not wait for a thank you.
 
-{:.lead}
-
-> “열심히 안해도 되니까 꾸준하기만 하면 무조건 성공해요 여러분”
+>True kindness lies within the act of giving without the expectation of something in return.
 
 
----
+## What I do and what I have done
 
-<!--author-->
-<!--comments-->
-<!-- Links -->
+Currently I am working as a Director in the Mobile Development Space. This is a role switch, getting into a more strategic position by helping companies and teams to develop themselves, be productive and reach out their goals. 
 
-[게임]: https://lostark.game.onstove.com/Main
-[락음악]: https://www.youtube.com/watch?v=cJMSDlWlfMM
-[팟캐스트]: https://www.podbbang.com/channels/1778465
+In the last 10 years I mostly worked as **Core Engineer** and **Tech Lead** focused on Mobile Development. I also had the opportunity to be **Engineer Manager** since I love solving people's problems and keeping teams motivated without losing entirely the technical part. 
+{: .text-justify}
+
+I also worked as a **Developer Advocate** by speaking at conferences, spreading and sharing knowledge through open source, communities and blog posts. Being social and helping in any way I can, is one the things I like the most. 
+{: .text-justify}
+
+Previously I started as a **developer** and later converted to an **agile coach**. 
+{: .text-justify}
+
+I think that summarizes a bit what I have done so far. Time flies by!
+{: .text-justify}
+
+![fernando]({{site.baseurl}}/assets/images/fernando.jpg){: .center}
+
+    
+## Latest talks
+
+Here are some of my latest presentations, you can find out more on <a target="_blank" href="https://speakerdeck.com/android10">Speakerdeck</a>.
+{: .text-justify}
+
+![fernando]({{site.baseurl}}/assets/images/talks.png){: .center}
+
+
+## Contribute to this blog
+
+- Any feedback is **ALWAYS** more than welcome.
+- Feel free to **collaborate** and **contribute** by sending pull requests on <a target="_blank" href="https://github.com/android10/android10.github.io">Github</a>.
+- The **documentation** sits on the <a target="_blank" href="https://github.com/android10/android10.github.io">repo</a> and <a target="_blank" href="{{ site.baseurl }}/help">help</a> section of this website.
