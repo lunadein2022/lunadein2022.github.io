@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://lunadein2022.github.io
+# url:                   https://lazyren.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -83,7 +83,7 @@ excerpt_separator:     <!--more-->
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customization
@@ -194,21 +194,20 @@ google_analytics:      UA-68290006-3
 # Set which comment system to use
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
-  provider:            'disqus'
+  provider:            utterances
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                
-  shortname:          "lunadein2022-github-io"
+# disqus:                lazyrengithub
 
 # You must install utterances github app before use.(https://github.com/apps/utterances)
 # Make sure all variables are set properly. Check below link for detail.
 # https://utteranc.es/
-# utterances:
-#   repo:                "LazyRen/LazyRen.github.io"
-#   issue-term:          "pathname"
-#   label:               "Comments"
-#   theme:               "photon-dark"
+utterances:
+  repo:                "lunadein2022/blog_comments.github.io"
+  issue-term:          "pathname"
+  label:               "Comments"
+  theme:               "preferred-color-scheme"
 
 # You must install giscus github app before use.(https://github.com/apps/giscus)
 # Make sure all variables are set properly. Check below link for detail.
