@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://lazyren.github.io
+url:                   https://lunadein2022.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -20,54 +20,56 @@
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Lazy Ren
+title:                 JawsBean
 
 timezone:              Asia/Seoul
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Work Hard to be Lazy.
-  SW Engineer at Samsung Research.
+Knock, Knock
+Smile the Door!
 
 # A shorter description for the sidebar.
 tagline:               >
-  Work Hard to be Lazy.
+  Knock, Knock
+Smile the Door!
 
 # A list of keywords for your blog
-keywords:              ["Development", "C++", "Rust", "Jekyll"]
+keywords:              ["Development", "JS", "CSS", "HTML", "HydeJack"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/seattle.png
+logo:                  /assets/img/pink.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                DaeIn Lee
-  email:               daein0lee@gmail.com
+  name:                Subin Cho
+  email:               lunadein2022@gmail.com
   picture:             /assets/img/seattle.png
   social:
-    linkedin:          daein-lee-3b6ba9139
-    github:            lazyren
-    stackoverflow:     4294737
-    email:             daein0lee@gmail.com
+    # linkedin:          daein-lee-3b6ba9139
+    github:            lunadein2022
+    # stackoverflow:     4294737
+    email:             lunadein2022@gmail.com
+    twitter:           lunadein2022
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSES
-    url:               /licenses/
-  - title:             COOKIES POLICY
-    url:               /cookies-policy/
-#   - title:             NOTICE
-#     url:               /NOTICE/
-#   - title:             CHANGELOG
-#     url:               /CHANGELOG/
+  # - title:             LICENSES
+  #   url:               /licenses/
+  # - title:             COOKIES POLICY
+  #   url:               /cookies-policy/
+  - title:             NOTICE
+    url:               /NOTICE/
+  - title:             CHANGELOG
+    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2022. All rights reserved.
+copyright:             ©lunadein2022 2022. All rights reserved.
 
 # Format of the permalinks
 # permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -83,7 +85,7 @@ excerpt_separator:     <!--more-->
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customization
@@ -194,7 +196,7 @@ google_analytics:      UA-68290006-3
 # Set which comment system to use
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
-  provider:            utterances
+  provider:            'utterances'
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -206,7 +208,7 @@ comments:
 utterances:
   repo:                "lunadein2022/blog_comments.github.io"
   issue-term:          "pathname"
-  label:               "Comments"
+  # label:               "Comments"
   theme:               "preferred-color-scheme"
 
 # You must install giscus github app before use.(https://github.com/apps/giscus)
