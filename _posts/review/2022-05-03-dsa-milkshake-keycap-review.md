@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "DSA Milkshake 키캡 리뷰"
 subtitle: "DSA Milkshake Keycap Review"
 category: review
@@ -19,12 +19,12 @@ image:
 
 ## 스펙
 
-| 분류 | 내용 |
-|---|---|
-| 디자이너 | biip |
-| 재질 | PBT |
+| 분류     | 내용        |
+| -------- | ----------- |
+| 디자이너 | biip        |
+| 재질     | PBT         |
 | 프로파일 | DSA Profile |
-| 각인 | 염료 승화 |
+| 각인     | 염료 승화   |
 
 ### DSA 프로파일
 

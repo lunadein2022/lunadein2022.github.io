@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Ark68 SE 키보드 리뷰"
 subtitle: "Ark68 SE Keyboard Review"
 category: review
@@ -11,9 +11,9 @@ image:
 이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다...!!!
 {:.figcaption}
 
-| Keyboard | Layout | Mount | Plate |
-|----------|--------|-----|-------|
-| Ark68 SE | 65% | Gasket | Aluminium |
+| Keyboard | Layout | Mount  | Plate     |
+| -------- | ------ | ------ | --------- |
+| Ark68 SE | 65%    | Gasket | Aluminium |
 
 <!--more-->
 
