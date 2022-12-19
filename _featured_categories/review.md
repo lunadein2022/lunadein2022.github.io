@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: project
 type: category
 title: Review
 slug: review

@@ -6,7 +6,6 @@ category: devlog
 tags: blog github-pages jekyll
 image:
   path: /assets/img/2022-08-28/gify_neo.gif
-comments: true
 ---
 
 Recently, I got a [question] asking about the functionality to make image pop up so viewer can have

@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://lunadein2022.github.io
+# url:                   https://lunadein2022.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -20,17 +20,18 @@ url:                   https://lunadein2022.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 JawsBean
+title:                 Lazy Ren
 
 timezone:              Asia/Seoul
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           Smile the Door!
-
+description:           >
+  Smile the Door!
 
 # A shorter description for the sidebar.
-tagline:               Smile the Door!
+tagline:               >
+  Smile the Door!
 
 # A list of keywords for your blog
 keywords:              ["Development", "JS", "CSS", "HTML", "HydeJack"]
@@ -45,13 +46,13 @@ author:
   # Used by `jekyll-feed`:
   name:                Subin Cho
   email:               lunadein2022@gmail.com
-  picture:             /assets/img/pink.png
+  picture:             /assets/img/me.png
   social:
     # linkedin:          daein-lee-3b6ba9139
     github:            lunadein2022
     # stackoverflow:     4294737
     email:             lunadein2022@gmail.com
-    twitter:           lunadein2022
+    twitter:          lunadein2022
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -60,10 +61,10 @@ legal:
   #   url:               /licenses/
   # - title:             COOKIES POLICY
   #   url:               /cookies-policy/
-  # - title:             NOTICE
-  #   url:               /NOTICE/
-  # - title:             CHANGELOG
-  #   url:               /CHANGELOG/
+#   - title:             NOTICE
+#     url:               /NOTICE/
+#   - title:             CHANGELOG
+#     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             ©lunadein2022 2022. All rights reserved.
@@ -82,7 +83,7 @@ excerpt_separator:     <!--more-->
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customization
@@ -91,7 +92,7 @@ remote_theme: hydecorp/hydejack@v9
 # Sidebar image and theme color of the site.
 accent_image:
   background:          center / cover url(/assets/img/bg1.gif)
-  overlay:             true
+  overlay:             false
 accent_color:          rgb(0,174,239)
 
 # This is used for the `theme-color` meta tag,
@@ -458,21 +459,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/bg1.jpg
+        path: /assets/img/sidebar-bg.jpg
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/bg2.jpg
+        path: /assets/img/sidebar-bg.jpg
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/bg3.jpg
+        path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
           url: https://example.com
