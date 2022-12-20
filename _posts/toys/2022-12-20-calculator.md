@@ -8,9 +8,14 @@ image:
   path: /assets/img/2022-12-20/toy/image.jpg
 ---
 
+* this unordered seed list will be replaced by the toc
+{:toc}
+
 후.. flexbox를 이용해서 계산기 목업을 만들었다.
 목업은 실제 물건과 비슷한 모형을 뜻한다.
 그러니까 나는 겉모습만 본뜬, 기능은 없는 계산기를 만들었다는 것이다.  
+
+<!--more-->
 
 ## 처음 만들었던 것. 
 디스플레이쪽과 버튼쪽의 가로길이가 맞지 않는 점이 아쉽고 디자인관점에서도 아쉬워 다시 만들어보기로 했다.  

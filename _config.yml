@@ -76,7 +76,7 @@ permalink:             none
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
 paginate_path:         /page-:num/
-excerpt_separator:     more
+excerpt_separator:     <!--more-->
 
 
 # Theme
