@@ -2,8 +2,8 @@
 layout: post
 title: "1. 계산기 MockUp을 만들었어요!"
 subtitle: "계산기 목업 만들기"
-category: toys
-tags: project calculator
+category: Toys
+tags: toys
 image:
   path: /assets/img/2022-12-20/toy/image.jpg
 ---
@@ -15,7 +15,7 @@ image:
 그러니까 나는 겉모습만 본뜬, 기능은 없는 계산기를 만들었다는 것이다.
 
 <p align="center">
-<img alt=:'calc1' src='/assets/img/2022-12-20/toy/cal1.gif' height = 300px>
+<img alt=:'calc1' src='/assets/img/2022-12-20/toy/cal1.gif' height= 300px>
 </p>
 
 
@@ -23,7 +23,7 @@ image:
 디스플레이쪽과 버튼쪽의 가로길이가 맞지 않는 점이 아쉽고 디자인관점에서도 아쉬워 다시 만들어보기로 했다.
 
 <p align="center">
-<img alt=:'calc2' src='/assets/img/2022-12-20/toy/cal2.gif' height = 300px>
+<img alt=:'calc2' src='/assets/img/2022-12-20/toy/cal2.gif' height= 300px>
 </p>
 
 ## 두번째로 만든 것.

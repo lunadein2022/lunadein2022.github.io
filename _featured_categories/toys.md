@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: list
 type: category
 title: Toys
 slug: toys
