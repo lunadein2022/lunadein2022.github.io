@@ -146,10 +146,10 @@ defaults:
       sitemap:         false
 
   # Don't include site verification file(for naver) in the sitemap
-  - scope:
-      path:            
-    values:
-      sitemap:         false
+  # - scope:
+  #     path:            
+  #   values:
+  #     sitemap:         false
 
   # You can use the following to enable comments on all posts.
   - scope:
