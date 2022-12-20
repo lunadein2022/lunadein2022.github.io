@@ -6,5 +6,5 @@ slug: mokoko
 sidebar: true
 order: 4
 description: >
-  Reviews in this every stuff
+  mokoko is my precious!
 ---
