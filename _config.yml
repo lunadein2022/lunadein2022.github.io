@@ -74,9 +74,9 @@ copyright:             ©lunadein2022 2022. All rights reserved.
 permalink:             none
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
+paginate:              5
 paginate_path:         /page-:num/
-excerpt_separator:     <!--more-->
+excerpt_separator:     more
 
 
 # Theme
