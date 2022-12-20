@@ -14,12 +14,12 @@ image:
 목업은 실제 물건과 비슷한 모형을 뜻한다.
 그러니까 나는 겉모습만 본뜬, 기능은 없는 계산기를 만들었다는 것이다.
 
-![calc1](/assets/img/2022-12-20/toy/cal1.gif){:.centered; height="300px"}
+![calc1](/assets/img/2022-12-20/toy/cal1.gif)
 
 ## 처음 만들었던 것. 
 디스플레이쪽과 버튼쪽의 가로길이가 맞지 않는 점이 아쉽고 디자인관점에서도 아쉬워 다시 만들어보기로 했다.
 
-![calc2](/assets/img/2022-12-20/toy/cal2.gif){:.centered; height="300px"}
+![calc2](/assets/img/2022-12-20/toy/cal2.gif)
 
 ## 두번째로 만든 것.
 
@@ -28,7 +28,8 @@ image:
 그러나 아직 저 너비가 맘에 안 들기 때문에 개념을 이해하지 못했다고 생각하고 다시 만들고자 했음.
 
 
-![calc3](/assets/img/2022-12-20/toy/cal3.gif){:.centered; height="300px"} 
+![calc3](/assets/img/2022-12-20/toy/cal3.gif) 
+{:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 ## 튜닝의 끝은 순정이라 했다.
