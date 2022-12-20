@@ -14,8 +14,10 @@ image:
 목업은 실제 물건과 비슷한 모형을 뜻한다.
 그러니까 나는 겉모습만 본뜬, 기능은 없는 계산기를 만들었다는 것이다.
 
-<p align="center">
-<img alt=:'calc1' src='/assets/img/2022-12-20/toy/cal1.gif' height= 300px>
+<p align="center" height=300px>
+
+![clac1](/assets/img/2022-12-20/toy/cal1.gif)
+
 </p>
 
 
