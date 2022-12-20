@@ -1,8 +1,8 @@
 ---
 layout: list
 type: category
-title: Review
-slug: review
+title: Mokoko
+slug: mokoko
 sidebar: true
 order: 4
 description: >
