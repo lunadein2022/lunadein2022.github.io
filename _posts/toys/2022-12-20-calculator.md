@@ -2,7 +2,7 @@
 layout: post
 title: "1. 계산기 MockUp을 만들었어요!"
 subtitle: "계산기 목업 만들기"
-category: toy
+category: toys
 tags: project calculator
 image:
   path: /assets/img/2022-12-20/toy/image.jpg
