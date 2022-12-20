@@ -24,7 +24,7 @@
 
 * {
   box-sizing: border-box;
-//   // -webkit-tap-highlight-color: transparent;
+  //   // -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -52,10 +52,12 @@ p {
   @extend .color-transition;
 }
 
-.content img, .img,
-.content video, .video {
+.content img,
+.img,
+.content video,
+.video {
   max-width: 100%;
-  height: auto;
+  // height: auto;
 }
 
 .lead {
@@ -65,11 +67,12 @@ p {
   margin-bottom: 1.5rem;
 }
 
-img, video {
+img,
+video {
   &.lead {
     display: block;
     max-width: calc(100% + 2rem);
     width: calc(100% + 2rem);
-    height: auto;
+    // height: auto;
   }
 }
