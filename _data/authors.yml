@@ -16,9 +16,9 @@ author1:
   picture:
     path:            /assets/img/me.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x: assets/icons/icon-192x192.png
-      2x: assets/icons/icon-512x512.png
+    # srcset:
+    #   1x: assets/icons/icon-192x192.png
+    #   2x: assets/icons/icon-512x512.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
