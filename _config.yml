@@ -20,7 +20,7 @@
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Lazy Ren
+title:                 JawsBean
 
 timezone:              Asia/Seoul
 
@@ -147,7 +147,7 @@ defaults:
 
   # Don't include site verification file(for naver) in the sitemap
   - scope:
-      path:            navera03014a241218f942080c56d67e79469.html
+      path:            
     values:
       sitemap:         false
 
@@ -394,7 +394,8 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: "zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM"
+google_site_verification: "vZRFZgGjz7e9SMKBFu_kxlAuqPBjo3xrFq1v7maljwM"
+
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
