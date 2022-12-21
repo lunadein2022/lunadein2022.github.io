@@ -65,5 +65,5 @@ image:
 아무튼 화이팅!!!!!
 
 
-[링크]:(https://visualgo.net/en)
-['비주얼고(visualgo)']: (https://visualgo.net/en)
+[링크]:(https://visualgo.net)
+['비주얼고(visualgo)']:(https://visualgo.net)
