@@ -3,7 +3,7 @@ layout: post
 title: "알고리즘 문제 접근법"
 subtitle: "사실 나도 잘 모르지만...!"
 category: Study
-tags: algorithm
+tags: study, algorithm
 image:
   path: /assets/img/2022-12-21/algorithm_thumnail.gif
 ---
