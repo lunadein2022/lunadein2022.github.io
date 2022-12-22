@@ -7,6 +7,8 @@ tags: study, react, style_components
 # image:
 #   path: /assets/img/2022-12-21/algorithm_thumnail.gif
 ---
+* this unordered seed list will be replaced by the toc
+{:toc}
 
 ```JavaScript
 import styled from "styled-components";

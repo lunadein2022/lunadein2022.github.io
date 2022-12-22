@@ -3,10 +3,12 @@ layout: post
 title: "[Storybook] Can't resolve '@mdx-js/react'"
 subtitle: "사실 나도 잘 모르지만...!"
 category: Study
-tags: study, error, style_components, storybook
+tags: errors, study, storybook
 # image:
 #   path: /assets/img/2022-12-21/algorithm_thumnail.gif
 ---
+* this unordered seed list will be replaced by the toc
+{:toc}
 
 ## Error!
 
@@ -15,6 +17,8 @@ tags: study, error, style_components, storybook
 **Module not found: Can't resolve '@mdx-js/react' in '/Users/codestates/CodeStates_Project/section3/1222/storybook-practice/src/stories' src/stories/Introduction.stories.mdx**
 
 라는 에러가 났다.
+
+<!--more-->
 
 무언가.. 버전에러같은데 자세히 알 수는 없었다..
 (나의 이해력이 아직 따라주지 않는 것 같다..!)

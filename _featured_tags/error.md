@@ -1,8 +1,8 @@
 ---
 layout: tag-list
 type: tag
-title: Error
-slug: error
+title: Errors
+slug: errors
 category: study
 sidebar: true
 description: >
