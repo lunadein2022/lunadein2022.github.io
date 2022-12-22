@@ -10,6 +10,8 @@ tags: study, react, style_components
 * this unordered seed list will be replaced by the toc
 {:toc}
 
+<!--more-->
+
 ```JavaScript
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components"
