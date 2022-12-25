@@ -16,8 +16,12 @@ image:
 모달창을 만들면서 잘 몰랐던 부분들을 코드 안에 주석을 넣으며 작성해보았다.  
 머릿 속에 구멍난 개념들을 보충하는데 도움이 되기를 바란다.
 
-```JavaScript
+## 기능 구현 목표 = 버튼을 누르면 모달창이 열리고 배경, X버튼을 누르면 모달창이 닫히게 한다.
 
+## 트리구조
+![modaltree](/assets/img/2022-12-25/modaltree.png){: height="700"}
+
+```JavaScript
 export const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
 
