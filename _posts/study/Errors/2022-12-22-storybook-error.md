@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Storybook] Can't resolve '@mdx-js/react'"
+title: "|Storybook| Can't resolve '@mdx-js/react'"
 subtitle: "사실 나도 잘 모르지만...!"
 category: Study
 tags: study, errors
@@ -9,6 +9,7 @@ image:
 ---
 * this unordered seed list will be replaced by the toc
 {:toc}
+<!--more-->
 
 ## Error!
 
@@ -18,7 +19,6 @@ image:
 
 라는 에러가 났다.
 
-<!--more-->
 
 무언가.. 버전에러같은데 자세히 알 수는 없었다..
 (나의 이해력이 아직 따라주지 않는 것 같다..!)
