@@ -5,7 +5,7 @@ subtitle: "사실 나도 잘 모르지만...!"
 category: Study
 tags: study, react
 image:
-  path: assets/img/2022-12-25/1225react.jpg
+  path: /assets/img/2022-12-25/1225react.jpg
 ---
 
 * this unordered seed list will be replaced by the toc
