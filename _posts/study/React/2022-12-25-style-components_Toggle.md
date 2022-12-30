@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React로 Modal창을 띄워보자"
+title: "React로 Toggle을 만들어보자"
 subtitle: "사실 나도 잘 모르지만...!"
 category: Study
 tags: study, react
