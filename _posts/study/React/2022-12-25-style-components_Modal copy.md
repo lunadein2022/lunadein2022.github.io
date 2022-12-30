@@ -21,7 +21,7 @@ image:
 ## 트리구조
 ![modaltree](/assets/img/2022-12-25/modaltree.png){: height="700"}
 
-```JavaScript
+```javascript
 export const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -33,7 +33,7 @@ export const Modal = () => {
 ```
 
 ## useState?
-```JavaScript
+```javascript
 const[상태값 저장 변수, 상태값 갱신 함수] = useState(상태초기값);
 
 const[a, b] = useState(default);
@@ -45,7 +45,7 @@ b는 a(상태)를 바꿔주는 ***함수***입니다. (a의 default값을 바꿔
 
 
 
-```JavaScript
+```javascript
   return (
     <>
       <ModalContainer className='ModalContainer'>
