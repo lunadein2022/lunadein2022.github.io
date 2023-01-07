@@ -4,7 +4,8 @@ title: "|Storybook| 리액트에 CSS넣는 법은 많다. 하지만"
 subtitle: "사실 나도 잘 모르지만...!"
 category: Study
 tags: study, react
-
+image:
+  path: /assets/img/thumbnail/react.png
 ---
 
 * this unordered seed list will be replaced by the toc

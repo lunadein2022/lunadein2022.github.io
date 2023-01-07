@@ -5,11 +5,12 @@ subtitle: "사실 나도 잘 모르지만...!"
 category: Study
 tags: study, errors
 image:
-  path: /assets/img/2022-12-21/algorithm_thumnail.gif
+  path: /assets/img/thumbnail/error.png
 ---
 * this unordered seed list will be replaced by the toc
 {:toc}
 <!--more-->
+
 
 ## Error!
 
