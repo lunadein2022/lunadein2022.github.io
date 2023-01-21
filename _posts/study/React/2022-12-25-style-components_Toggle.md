@@ -24,7 +24,7 @@ image:
 
 
 ## CSS
-```JavaScript
+```javascript
 import { useState } from 'react';
 import styled from 'styled-components';
 
@@ -75,7 +75,7 @@ const Desc = styled.div`
 1. Sass문법인 '&'는 부모선택자이며 중첩된 Sass문법 안에서 사용한다. + 가상클래스 및 가상요소에 사용된다.
 
 
-```JavaScript
+```javascript
 export const Toggle = () => {
   const [isOn, setisOn] = useState(false);
 
@@ -90,7 +90,7 @@ export const Toggle = () => {
 => 현재 isOn은 false 이므로 !isON은 true가 된다.
 
 
-```JavaScript
+```javascript
   return (
     <>
       <ToggleContainer className='ToggleContainer'
@@ -128,7 +128,7 @@ export const Toggle = () => {
 ### $?
 클래스네임 작성시 적어주는 $는 템플릿 리터럴..내에서 표현식을 사용할 수 있게 한다.  
 그래서 위의 작성에 따르면
-```JavaScript
+```javascript
 className={`toggle-container${isOn ? " toggle--checked" : ""}`} 
 
 className = 'toggle-container toggle--checked'

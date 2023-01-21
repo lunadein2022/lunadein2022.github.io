@@ -13,7 +13,7 @@ image:
 
 <!--more-->
 
-```JavaScript
+```javascript
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components"
 
